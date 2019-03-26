@@ -78,30 +78,27 @@ Seq[Any](format.raw/*2.1*/("""
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href=""""),_display_(/*50.52*/routes/*50.58*/.ProductCtrl.listProducts(0)),format.raw/*50.86*/("""">Products Catalogue</a>
+                    <a class="navbar-brand" href=""""),_display_(/*50.52*/routes/*50.58*/.ProductCtrl.listProducts(0)),format.raw/*50.86*/("""">C MUSIC</a>
                 </div>
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
                         <li>
-                            <a href="#">About</a>
+                            <a href=""""),_display_(/*56.39*/routes/*56.45*/.ProductCtrl.about()),format.raw/*56.65*/("""">About</a>
                         </li>
                         <li>
-                            <a href="#">Services</a>
-                        </li>
-                        <li>
-                            <a href="#">Contact</a>
+                            <a href=""""),_display_(/*59.39*/routes/*59.45*/.ProductCtrl.contact()),format.raw/*59.67*/("""">Contact</a>
                         </li>
                                             <!-- Login/ logout Link - check if user logged in -->
                         <li>
-                            """),_display_(/*66.30*/if(user != null)/*66.46*/ {_display_(Seq[Any](format.raw/*66.48*/("""
-                                """),format.raw/*67.33*/("""<a href=""""),_display_(/*67.43*/controllers/*67.54*/.security.routes.LoginCtrl.logout()),format.raw/*67.89*/("""">Logout """),_display_(/*67.99*/user/*67.103*/.getName()),format.raw/*67.113*/("""</a>
-                            """)))}/*68.31*/else/*68.36*/{_display_(Seq[Any](format.raw/*68.37*/("""
-                                """),format.raw/*69.33*/("""<a href=""""),_display_(/*69.43*/controllers/*69.54*/.security.routes.LoginCtrl.login()),format.raw/*69.88*/("""">Login</a>
-                            """)))}),format.raw/*70.30*/("""
-                        """),format.raw/*71.25*/("""</li>
+                            """),_display_(/*63.30*/if(user != null)/*63.46*/ {_display_(Seq[Any](format.raw/*63.48*/("""
+                                """),format.raw/*64.33*/("""<a href=""""),_display_(/*64.43*/controllers/*64.54*/.security.routes.LoginCtrl.logout()),format.raw/*64.89*/("""">Logout """),_display_(/*64.99*/user/*64.103*/.getName()),format.raw/*64.113*/("""</a>
+                            """)))}/*65.31*/else/*65.36*/{_display_(Seq[Any](format.raw/*65.37*/("""
+                                """),format.raw/*66.33*/("""<a href=""""),_display_(/*66.43*/controllers/*66.54*/.security.routes.LoginCtrl.login()),format.raw/*66.88*/("""">Login</a>
+                            """)))}),format.raw/*67.30*/("""
+                        """),format.raw/*68.25*/("""</li>
                         <li>
-                            <a href=""""),_display_(/*73.39*/routes/*73.45*/.ShoppingCtrl.showBasket()),format.raw/*73.71*/(""""><span class="glyphicon glyphicon-shopping-cart"></span></a>
+                            <a href=""""),_display_(/*70.39*/routes/*70.45*/.ShoppingCtrl.showBasket()),format.raw/*70.71*/(""""><span class="glyphicon glyphicon-shopping-cart"></span></a>
                         </li>
                     </ul>
                 </div>
@@ -116,13 +113,13 @@ Seq[Any](format.raw/*2.1*/("""
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <p class="lead">"""),_display_(/*88.38*/title),format.raw/*88.43*/("""</p>
+                    <p class="lead">"""),_display_(/*85.38*/title),format.raw/*85.43*/("""</p>
                 <div>
             </div>
 
             <!-- Start Content -->
-            """),_display_(/*93.14*/content),format.raw/*93.21*/("""
-            """),format.raw/*94.13*/("""<!-- End Content -->
+            """),_display_(/*90.14*/content),format.raw/*90.21*/("""
+            """),format.raw/*91.13*/("""<!-- End Content -->
 
         </div>
         <!-- /.container -->
@@ -170,11 +167,11 @@ Seq[Any](format.raw/*2.1*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Wed Mar 20 15:54:28 GMT 2019
+                  DATE: Tue Mar 26 16:57:09 GMT 2019
                   SOURCE: /home/wdd/basket/app/views/main.scala.html
-                  HASH: 7e77b90acd226a939161c51840f4197267976851
-                  MATRIX: 970->1|1119->57|1146->58|1483->368|1509->373|2113->950|2128->956|2199->1006|3446->2226|3461->2232|3510->2260|4296->3019|4321->3035|4361->3037|4422->3070|4459->3080|4479->3091|4535->3126|4572->3136|4586->3140|4618->3150|4671->3185|4684->3190|4723->3191|4784->3224|4821->3234|4841->3245|4896->3279|4968->3320|5021->3345|5121->3418|5136->3424|5183->3450|5666->3906|5692->3911|5814->4006|5842->4013|5883->4026
-                  LINES: 28->1|33->2|34->3|45->14|45->14|56->25|56->25|56->25|81->50|81->50|81->50|97->66|97->66|97->66|98->67|98->67|98->67|98->67|98->67|98->67|98->67|99->68|99->68|99->68|100->69|100->69|100->69|100->69|101->70|102->71|104->73|104->73|104->73|119->88|119->88|124->93|124->93|125->94
+                  HASH: 0f090874c327e08042c30dc321f06d20fb764c0a
+                  MATRIX: 970->1|1119->57|1146->58|1483->368|1509->373|2113->950|2128->956|2199->1006|3446->2226|3461->2232|3510->2260|3864->2587|3879->2593|3920->2613|4056->2722|4071->2728|4114->2750|4341->2950|4366->2966|4406->2968|4467->3001|4504->3011|4524->3022|4580->3057|4617->3067|4631->3071|4663->3081|4716->3116|4729->3121|4768->3122|4829->3155|4866->3165|4886->3176|4941->3210|5013->3251|5066->3276|5166->3349|5181->3355|5228->3381|5711->3837|5737->3842|5859->3937|5887->3944|5928->3957
+                  LINES: 28->1|33->2|34->3|45->14|45->14|56->25|56->25|56->25|81->50|81->50|81->50|87->56|87->56|87->56|90->59|90->59|90->59|94->63|94->63|94->63|95->64|95->64|95->64|95->64|95->64|95->64|95->64|96->65|96->65|96->65|97->66|97->66|97->66|97->66|98->67|99->68|101->70|101->70|101->70|116->85|116->85|121->90|121->90|122->91
                   -- GENERATED --
               */
           

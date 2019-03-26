@@ -4,7 +4,7 @@
 		module="basket-build"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20190326121316"
+		publication="20190326155957"
 		e:sbtVersion="1.0" e:scalaVersion="2.12"
 	>
 		<description>

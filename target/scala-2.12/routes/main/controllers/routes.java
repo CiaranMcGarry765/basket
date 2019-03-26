@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/home/wdd/basket/conf/routes
-// @DATE:Wed Mar 20 15:54:27 GMT 2019
+// @DATE:Tue Mar 26 16:50:30 GMT 2019
 
 package controllers;
 

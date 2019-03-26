@@ -5,6 +5,8 @@
 # https://www.playframework.com/documentation/2.5.1/JavaRouting
 # Home page
 GET		/   						        controllers.ProductCtrl.index()
+GET		/about  						    controllers.ProductCtrl.about()
+GET		/contact  						    controllers.ProductCtrl.contact()
 
 # Show a list of products - note optional parameter
 GET     /listProducts                       controllers.ProductCtrl.listProducts(cat:Long ?= 0, filter?="")

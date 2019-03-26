@@ -44,6 +44,14 @@ public class ProductCtrl extends Controller {
 		return redirect(routes.ProductCtrl.listProducts(0, ""));
     }
 
+    public Result about() {
+		return ok(about.render("About", getCurrentUser()));
+    }
+
+    public Result contact() {
+		return ok(contact.render("Contact", getCurrentUser()));
+    }
+
 	// Get a list of products
     // If cat parameter is 0 then return all products
     // Otherwise return products for a category (by id)

@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/home/wdd/basket/conf/routes
-// @DATE:Wed Mar 20 15:54:27 GMT 2019
+// @DATE:Tue Mar 26 16:50:30 GMT 2019
 
 import play.api.routing.JavaScriptReverseRoute
 
@@ -8,10 +8,10 @@ import play.api.routing.JavaScriptReverseRoute
 import _root_.controllers.Assets.Asset
 import _root_.play.libs.F
 
-// @LINE:13
+// @LINE:15
 package controllers.security.javascript {
 
-  // @LINE:13
+  // @LINE:15
   class ReverseLoginCtrl(_prefix: => String) {
 
     def _defaultPrefix: String = {
@@ -19,7 +19,7 @@ package controllers.security.javascript {
     }
 
   
-    // @LINE:14
+    // @LINE:16
     def loginSubmit: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.security.LoginCtrl.loginSubmit",
       """
@@ -29,7 +29,7 @@ package controllers.security.javascript {
       """
     )
   
-    // @LINE:15
+    // @LINE:17
     def logout: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.security.LoginCtrl.logout",
       """
@@ -39,7 +39,7 @@ package controllers.security.javascript {
       """
     )
   
-    // @LINE:13
+    // @LINE:15
     def login: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.security.LoginCtrl.login",
       """
