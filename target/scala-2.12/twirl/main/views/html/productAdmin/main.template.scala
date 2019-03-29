@@ -42,7 +42,7 @@ Seq[Any](format.raw/*2.1*/("""
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Product Catalogue - """),_display_(/*14.33*/title),format.raw/*14.38*/("""</title>
+    <title>C MUSIC - """),_display_(/*14.23*/title),format.raw/*14.28*/("""</title>
 
     <!-- Bootstrap Core CSS -->
     <link href=""""),_display_(/*17.18*/routes/*17.24*/.Assets.versioned("stylesheets/bootstrap.min.css")),format.raw/*17.74*/("""" rel="stylesheet">
@@ -72,7 +72,7 @@ Seq[Any](format.raw/*2.1*/("""
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href=""""),_display_(/*44.48*/routes/*44.54*/.AdminProductCtrl.listProducts(0)),format.raw/*44.87*/("""">Products Catalogue</a>
+                <a class="navbar-brand" href=""""),_display_(/*44.48*/routes/*44.54*/.AdminProductCtrl.listProducts(0)),format.raw/*44.87*/("""">C MUSIC</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -97,7 +97,7 @@ Seq[Any](format.raw/*2.1*/("""
 			<div class="row">
 
 				<div class="col-md-12">
-						<p class="lead">Products Catalogue</p>
+						<p class="lead">C MUSIC</p>
 				<div>
 			</div>
 
@@ -116,7 +116,10 @@ Seq[Any](format.raw/*2.1*/("""
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-                    <p>Products Catalogue Footer</p>
+                    <p>Created by </p>
+                    <p>Calvin Hynes X00145307</p>
+                    <p>Ciaran McGarry X00145140</p>
+                    <p>Conor Morrin X00146070</p>
                 </div>
             </div>
         </footer>
@@ -125,10 +128,10 @@ Seq[Any](format.raw/*2.1*/("""
     <!-- /.container -->
 
     <!-- jQuery -->
-    <script src=""""),_display_(/*97.19*/routes/*97.25*/.Assets.versioned("javascripts/jquery.js")),format.raw/*97.67*/(""""></script>
+    <script src=""""),_display_(/*100.19*/routes/*100.25*/.Assets.versioned("javascripts/jquery.js")),format.raw/*100.67*/(""""></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src=""""),_display_(/*100.19*/routes/*100.25*/.Assets.versioned("javascripts/bootstrap.min.js")),format.raw/*100.74*/(""""></script>
+    <script src=""""),_display_(/*103.19*/routes/*103.25*/.Assets.versioned("javascripts/bootstrap.min.js")),format.raw/*103.74*/(""""></script>
 
 </body>
 
@@ -149,11 +152,11 @@ Seq[Any](format.raw/*2.1*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Wed Mar 20 15:54:28 GMT 2019
+                  DATE: Fri Mar 29 11:31:57 GMT 2019
                   SOURCE: /home/wdd/basket/app/views/productAdmin/main.scala.html
-                  HASH: b1c689a9de502f2f99a353ba30afbba0b0a32f01
-                  MATRIX: 983->1|1132->57|1159->58|1496->368|1522->373|1608->432|1623->438|1694->488|1783->550|1798->556|1869->606|2989->1699|3004->1705|3058->1738|3430->2084|3455->2100|3495->2102|3531->2111|3568->2121|3588->2132|3644->2167|3681->2177|3694->2181|3723->2189|3753->2202|3766->2207|3805->2208|3859->2234|3896->2244|3916->2255|3971->2289|4020->2308|4069->2329|4437->2671|4465->2678|4496->2682|4925->3084|4940->3090|5003->3132|5101->3202|5117->3208|5188->3257
-                  LINES: 28->1|33->2|34->3|45->14|45->14|48->17|48->17|48->17|51->20|51->20|51->20|75->44|75->44|75->44|82->51|82->51|82->51|83->52|83->52|83->52|83->52|83->52|83->52|83->52|84->53|84->53|84->53|85->54|85->54|85->54|85->54|86->55|87->56|105->74|105->74|106->75|128->97|128->97|128->97|131->100|131->100|131->100
+                  HASH: 845d85fd48266ddd9df43612884f1dff1b7c33bc
+                  MATRIX: 983->1|1132->57|1159->58|1486->358|1512->363|1598->422|1613->428|1684->478|1773->540|1788->546|1859->596|2979->1689|2994->1695|3048->1728|3409->2063|3434->2079|3474->2081|3510->2090|3547->2100|3567->2111|3623->2146|3660->2156|3673->2160|3702->2168|3732->2181|3745->2186|3784->2187|3838->2213|3875->2223|3895->2234|3950->2268|3999->2287|4048->2308|4405->2639|4433->2646|4464->2650|5032->3190|5048->3196|5112->3238|5210->3308|5226->3314|5297->3363
+                  LINES: 28->1|33->2|34->3|45->14|45->14|48->17|48->17|48->17|51->20|51->20|51->20|75->44|75->44|75->44|82->51|82->51|82->51|83->52|83->52|83->52|83->52|83->52|83->52|83->52|84->53|84->53|84->53|85->54|85->54|85->54|85->54|86->55|87->56|105->74|105->74|106->75|131->100|131->100|131->100|134->103|134->103|134->103
                   -- GENERATED --
               */
           

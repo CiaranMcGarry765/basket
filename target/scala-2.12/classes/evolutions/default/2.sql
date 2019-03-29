@@ -17,7 +17,7 @@ insert into product (id,name,description,stock,price) values ( 5,'Drum Kit Simpl
 insert into product (id,name,description,stock,price) values ( 6,'Squier Strat','Electric Guitar for starting',12,109.00 );
 insert into product (id,name,description,stock,price) values ( 7,'X','Ed Sheeran',50,12.00 );
 insert into product (id,name,description,stock,price) values ( 8,'Wooden Cajon','Box Drum',15,265.00 );
-insert into product (id,name,description,stock,price) values ( 9,'Fender Bass',"Bass for Beginners",5,299.00 );
+insert into product (id,name,description,stock,price) values ( 9,'Fender Bass','Bass for Beginners',5,299.00 );
 insert into product (id,name,description,stock,price) values ( 10,'Taylor Acoustic','Acoustic',10,399.00 );
 insert into product (id,name,description,stock,price) values ( 11,'Yamaha Piano','Grand Piano',5,1899.00 );
 insert into product (id,name,description,stock,price) values ( 12,'Roland Piano','Stringed Piano Extra Harmonics',3,2219.00 );
