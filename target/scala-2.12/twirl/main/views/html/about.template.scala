@@ -114,7 +114,43 @@ Seq[Any](format.raw/*2.1*/("""
 
             <!-- Start Content -->
             
-            ABOUT
+            <div class="container">
+                <h2>WHO ARE WE?</h2>
+                
+                <div class="well">We started this page through our passion for music. Each of us
+                    have our own story through music that brought us to this page. We want to share with you the customer our journeys in the music industry.
+                </div>
+                <div class="well">
+                <h4>Conor (X00146070) :</h4> <p>I began listening to music at a young age listening to my dads old record collection, whic included musicsal
+                classics like Pink Floyds "The Wall".</p>
+                <img src="project/public/images/OtherImages/PinkFloyd.jpg" class="img-rounded" alt="Pink Floyd - The Wall" width="304" height="236"> 
+                <p>As I grew older I began exploring my own tastes in the music world.This involved many huge artists such as Damon Albarn and his many Colaborative 
+                projects such as Gorillaz and The Good The Bad and the Queen. </p>
+                <p>These many artists allowed me to explore many genres and inspire me to begin learning and playing music with such instruments like the Fender Bass 
+                    available from our product selection <a href="http://localhost:9000/listProducts?cat=3">here</a>.
+                </p> 
+                </div>
+
+                <div class="well">
+                    <h4>Calvin (X00145307) :</h4> 
+                        <p>I began writing and playing music from very early in my career. It helped me escape to my own music world so to speak.
+                        </p>
+                        <p>I Listen to many past and current artist in the music industry. These include legendary albums like "Abbey Road" by the Beatles and 
+                            more current artists Like Ed Sheeran and his <a href="http://localhost:9000/listProducts?cat=6&filter=X">Album X</a>.
+                        </p>
+                        <p>As I began writing and composing music, I felt I wanted to share what I was making with the world. So I created my own <a href="https://open.spotify.com/artist/5k4mgNHwJFKYRxgz0a11is">Spotify Account</a> and began to 
+                            produce and display my music to a larger and more available accross the world.
+                        </p> 
+                </div>
+
+                <div class="well">
+                        <h4>Ciaran (X00145140) :</h4> <p>I began listening to club and house music when I grew older and began to try understand how this genre of music
+                            was composed and created</p>
+                        </div>
+                
+                
+              </div>
+
             <!-- End Content -->
 
         </div>
@@ -166,9 +202,9 @@ Seq[Any](format.raw/*2.1*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Fri Mar 29 11:33:27 GMT 2019
+                  DATE: Tue Apr 09 13:53:55 IST 2019
                   SOURCE: /home/wdd/basket/app/views/about.scala.html
-                  HASH: 7004e753e7a1a9235b8756af49fa424be37837c0
+                  HASH: 74797cb8d876dd751dd5674c36add57c06dff7a3
                   MATRIX: 966->1|1100->42|1127->43|1452->341|1478->346|2987->1828|3002->1834|3051->1862|3405->2189|3420->2195|3461->2215|3597->2324|3612->2330|3655->2352|3882->2552|3907->2568|3947->2570|4008->2603|4045->2613|4065->2624|4121->2659|4158->2669|4172->2673|4204->2683|4257->2718|4270->2723|4309->2724|4370->2757|4407->2767|4427->2778|4482->2812|4554->2853|4607->2878|4707->2951|4722->2957|4769->2983|5252->3439|5278->3444
                   LINES: 28->1|33->2|34->3|45->14|45->14|76->45|76->45|76->45|82->51|82->51|82->51|85->54|85->54|85->54|89->58|89->58|89->58|90->59|90->59|90->59|90->59|90->59|90->59|90->59|91->60|91->60|91->60|92->61|92->61|92->61|92->61|93->62|94->63|96->65|96->65|96->65|111->80|111->80
                   -- GENERATED --
