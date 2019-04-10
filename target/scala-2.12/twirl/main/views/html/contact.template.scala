@@ -113,8 +113,25 @@ Seq[Any](format.raw/*2.1*/("""
             </div>
 
             <!-- Start Content -->
+            <br> </br>
+            <h3>Contact </h3>
             
-            Contact
+            <div class="form-group">
+                <input type="text" name="subject" class="form-control input-xs" placeholder="Subject" >
+            </div>
+            <div class="form-group">
+                <input type="text" name=" " class="form-control input-xs" placeholder="Text" >
+            </div>
+        
+                <!-- Add a submit button -->
+                <div class="form-group">
+                    <input type="submit" value="Submit" class="btn btn-primary">
+                </div>
+
+                <div class="well"><h5>
+                    <p>Phone - 016235175</p></h5>
+                    <p>Email - Admin©CMusic.com </p>
+                </div>
             <!-- End Content -->
 
         </div>
@@ -166,9 +183,9 @@ Seq[Any](format.raw/*2.1*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Fri Mar 29 11:33:27 GMT 2019
+                  DATE: Wed Apr 10 13:44:08 IST 2019
                   SOURCE: /home/wdd/basket/app/views/contact.scala.html
-                  HASH: 1699d7bde9cfe6c1f4233cfb84f0c2176938add5
+                  HASH: a9630635be062e7f74cd4e19a3a5a524c4fd5e56
                   MATRIX: 968->1|1102->42|1129->43|1456->343|1482->348|2991->1830|3006->1836|3055->1864|3409->2191|3424->2197|3465->2217|3601->2326|3616->2332|3659->2354|3886->2554|3911->2570|3951->2572|4012->2605|4049->2615|4069->2626|4125->2661|4162->2671|4176->2675|4208->2685|4261->2720|4274->2725|4313->2726|4374->2759|4411->2769|4431->2780|4486->2814|4558->2855|4611->2880|4711->2953|4726->2959|4773->2985|5256->3441|5282->3446
                   LINES: 28->1|33->2|34->3|45->14|45->14|76->45|76->45|76->45|82->51|82->51|82->51|85->54|85->54|85->54|89->58|89->58|89->58|90->59|90->59|90->59|90->59|90->59|90->59|90->59|91->60|91->60|91->60|92->61|92->61|92->61|92->61|93->62|94->63|96->65|96->65|96->65|111->80|111->80
                   -- GENERATED --

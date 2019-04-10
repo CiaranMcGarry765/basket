@@ -35,6 +35,6 @@ insert into category_product (category_id,product_id) values (1,10);
 insert into category_product (category_id,product_id) values (4,11);
 insert into category_product (category_id,product_id) values (4,12);
 
-insert into user (email,name,password,role) values ( 'admin@products.com', 'Alice Admin', 'password', 'admin' );
-insert into user (email,name,password,role) values ( 'manager@products.com', 'Bob Manager', 'password', 'manager' );
-insert into user (email,name,password,role) values ( 'customer@products.com', 'Charlie Customer', 'password', 'customer' );
+insert into user (email,name,password,role) values ( 'admin@cmusic.com', 'Admin', 'password', 'admin' );
+insert into user (email,name,password,role) values ( 'manager@cmusic.com', 'Manager', 'password', 'manager' );
+insert into user (email,name,password,role) values ( 'customer@cmusic.com', 'Customer', 'password', 'customer' );

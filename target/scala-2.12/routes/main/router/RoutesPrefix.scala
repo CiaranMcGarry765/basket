@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/home/wdd/basket/conf/routes
-// @DATE:Tue Mar 26 16:50:30 GMT 2019
+// @DATE:Wed Apr 10 13:29:17 IST 2019
 
 
 package router {
